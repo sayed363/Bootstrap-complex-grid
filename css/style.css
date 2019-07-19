@@ -88,6 +88,8 @@ button{
 	top:50%;
 	transform:translate(-50%,-50%);
 }
+table tr td:nth-child(1){padding-right:5px;}
+table tr td:nth-child(2){padding-right:10px;}
 
 
 /* MEDIA QUERIES */
@@ -104,7 +106,11 @@ button{
   }
 }
 
-
+.sayed {
+  /* animation-duration: 3s; */
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+}
 
 
 
